@@ -16,6 +16,7 @@
 		865D5A292596CBBA00F29E91 /*  NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865D5A282596CBBA00F29E91 /*  NavView.swift */; };
 		865D5A3B259781F300F29E91 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865D5A3A259781F300F29E91 /* NewsView.swift */; };
 		866646A02598CEB1007D9766 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8666469F2598CEB1007D9766 /* Person.swift */; };
+		866646A92598D96E007D9766 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866646A82598D96E007D9766 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		865D5A352596D16C00F29E91 /* Yellowtail-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Yellowtail-Regular.ttf"; path = "../../../../../Downloads/Yellowtail/Yellowtail-Regular.ttf"; sourceTree = "<group>"; };
 		865D5A3A259781F300F29E91 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
 		8666469F2598CEB1007D9766 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		866646A82598D96E007D9766 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		863988DB2596C3CC00F7D59D /* instagram-clone */ = {
 			isa = PBXGroup;
 			children = (
+				866646A72598D955007D9766 /* NavigationViews */,
 				8666469E2598CEA0007D9766 /* Models */,
 				865D5A39259781E100F29E91 /* News */,
 				865D5A342596D0EF00F29E91 /* Fonts */,
@@ -171,6 +174,14 @@
 				8666469F2598CEB1007D9766 /* Person.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		866646A72598D955007D9766 /* NavigationViews */ = {
+			isa = PBXGroup;
+			children = (
+				866646A82598D96E007D9766 /* MainView.swift */,
+			);
+			path = NavigationViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				866646A02598CEB1007D9766 /* Person.swift in Sources */,
+				866646A92598D96E007D9766 /* MainView.swift in Sources */,
 				865D5A292596CBBA00F29E91 /*  NavView.swift in Sources */,
 				865D5A3B259781F300F29E91 /* NewsView.swift in Sources */,
 				863988DF2596C3CC00F7D59D /* ContentView.swift in Sources */,
