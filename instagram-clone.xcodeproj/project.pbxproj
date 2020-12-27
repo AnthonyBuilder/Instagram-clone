@@ -13,6 +13,9 @@
 		863988E42596C3CE00F7D59D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 863988E32596C3CE00F7D59D /* Preview Assets.xcassets */; };
 		863988EF2596C3CF00F7D59D /* instagram_cloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863988EE2596C3CF00F7D59D /* instagram_cloneTests.swift */; };
 		863988FA2596C3CF00F7D59D /* instagram_cloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863988F92596C3CF00F7D59D /* instagram_cloneUITests.swift */; };
+		865D5A292596CBBA00F29E91 /*  NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865D5A282596CBBA00F29E91 /*  NavView.swift */; };
+		865D5A3B259781F300F29E91 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865D5A3A259781F300F29E91 /* NewsView.swift */; };
+		866646A02598CEB1007D9766 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8666469F2598CEB1007D9766 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,10 @@
 		863988F52596C3CF00F7D59D /* instagram-cloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "instagram-cloneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		863988F92596C3CF00F7D59D /* instagram_cloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instagram_cloneUITests.swift; sourceTree = "<group>"; };
 		863988FB2596C3CF00F7D59D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		865D5A282596CBBA00F29E91 /*  NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " NavView.swift"; sourceTree = "<group>"; };
+		865D5A352596D16C00F29E91 /* Yellowtail-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Yellowtail-Regular.ttf"; path = "../../../../../Downloads/Yellowtail/Yellowtail-Regular.ttf"; sourceTree = "<group>"; };
+		865D5A3A259781F300F29E91 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		8666469F2598CEB1007D9766 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +102,10 @@
 		863988DB2596C3CC00F7D59D /* instagram-clone */ = {
 			isa = PBXGroup;
 			children = (
+				8666469E2598CEA0007D9766 /* Models */,
+				865D5A39259781E100F29E91 /* News */,
+				865D5A342596D0EF00F29E91 /* Fonts */,
+				865D5A272596CB9C00F29E91 /* nav */,
 				863988DC2596C3CC00F7D59D /* instagram_cloneApp.swift */,
 				863988DE2596C3CC00F7D59D /* ContentView.swift */,
 				863988E02596C3CE00F7D59D /* Assets.xcassets */,
@@ -128,6 +139,38 @@
 				863988FB2596C3CF00F7D59D /* Info.plist */,
 			);
 			path = "instagram-cloneUITests";
+			sourceTree = "<group>";
+		};
+		865D5A272596CB9C00F29E91 /* nav */ = {
+			isa = PBXGroup;
+			children = (
+				865D5A282596CBBA00F29E91 /*  NavView.swift */,
+			);
+			path = nav;
+			sourceTree = "<group>";
+		};
+		865D5A342596D0EF00F29E91 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				865D5A352596D16C00F29E91 /* Yellowtail-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		865D5A39259781E100F29E91 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				865D5A3A259781F300F29E91 /* NewsView.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		8666469E2598CEA0007D9766 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8666469F2598CEB1007D9766 /* Person.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +302,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				866646A02598CEB1007D9766 /* Person.swift in Sources */,
+				865D5A292596CBBA00F29E91 /*  NavView.swift in Sources */,
+				865D5A3B259781F300F29E91 /* NewsView.swift in Sources */,
 				863988DF2596C3CC00F7D59D /* ContentView.swift in Sources */,
 				863988DD2596C3CC00F7D59D /* instagram_cloneApp.swift in Sources */,
 			);
